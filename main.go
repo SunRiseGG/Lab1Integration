@@ -9,6 +9,7 @@ import (
 
 func main() {
   reader := bufio.NewReader(os.Stdin)
+  fmt.Println("Current project version:", BuildVersion)
   fmt.Println("Input your expression: ")
   fmt.Print("~> ")
   text, _ := reader.ReadString('\n')
