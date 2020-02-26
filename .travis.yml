@@ -1,3 +1,5 @@
 language: go
 
+install: go get -u gopkg.in/check.v1
+
 script: make test
